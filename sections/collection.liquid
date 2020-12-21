@@ -2,10 +2,35 @@
 
 {% capture default_show_filters %}{%- unless section.settings.hide_sidebar -%}filters--default-visible{%- endunless -%}{% endcapture %}
 
+<style>
+video::-webkit-media-controls {
+  display: none;
+}
+</style>
+
+{{ collection.id }}
+
 <div data-section-id="{{ section.id }}"
   data-section-type="collection"
   data-sort="{{ section.settings.collection_sorting }}">
 
+
+  {% if collection.id == 238695350454 %}
+  <!-- Beauty Collection Header -->
+
+
+
+
+  {% elsif collection.id == 238695415990 %}
+    <!-- Lifestyle Collection Header -->
+
+    <video style="width: 100%;" id="video" muted="" autoplay="autoplay" loop="loop" preload="auto">
+   <source src="{{ 'lifestyle-video.mp4' | asset_url }}">
+   </video>
+
+
+{% else %}
+<!-- Normal Theme Collection Header -->
   {% if collection.image and section.settings.show_image %}
     <div class="section--image fade-in-child preventOverflow {{ section.settings.color }}" data-overlay-header>
       <div class="flex-absolute {{ section.settings.text_align }}">
@@ -29,6 +54,8 @@
       </noscript>
     </div>
   {% endif %}
+
+{% endif %}
 
   <div class="collection" data-sidebar-toggle>
     <div class="wrapper">
