@@ -1,0 +1,10 @@
+production:
+  password: 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
+  theme_id: "116884078774"
+  store: belleandgaia.myshopify.com
+  timeout: 1h23m20s
+development:
+    password: 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
+    theme_id: "116927398070"
+    store: belleandgaia.myshopify.com
+    timeout: 1h23m20s

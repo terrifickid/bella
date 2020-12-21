@@ -1,0 +1,721 @@
+{
+  "current": {
+    "color_announcement_bg": "#f7f7f7",
+    "color_announcement_text": "#656565",
+    "color_header_bg": "#ffffff",
+    "color_header_text": "#676767",
+    "color_nav_border": "#f7f7f7",
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#656565",
+    "color_primary": "#676767",
+    "color_secondary": "#b6dadb",
+    "color_bg_light": "#dbd8d8",
+    "color_bg_inverse": "#2e3438",
+    "color_text_inverse": "#ffffff",
+    "color_primary_inverse": "#fcd8c8",
+    "color_secondary_inverse": "#c6dae5",
+    "color_bg_accent_inverse": "#222324",
+    "product_background_color": "#ffffff",
+    "color_footer_bg": "#dbd8d8",
+    "color_footer_text": "#5a5a5a",
+    "type_header_font": "itc_johnston_n3",
+    "type_heading_size": 125,
+    "font_title_capitalize": true,
+    "type_accent_font": "itc_johnston_n3",
+    "type_accent_size": 100,
+    "type_base_font": "itc_johnston_n3",
+    "type_body_size": 100,
+    "button_radius": 0,
+    "animations_enable": true,
+    "parallax_enable": false,
+    "collection_text_alignment": "text-center",
+    "product_grid_style": "hover",
+    "image_hover_enable": true,
+    "image_autoheight_enable": true,
+    "product_grid_aspect_ratio": 1,
+    "swatches_enable": true,
+    "tag_sellout": false,
+    "tag_sale": true,
+    "tag_new": false,
+    "tag_new_limit": 14,
+    "social_twitter_link": "https:\/\/www.pinterest.com\/",
+    "social_facebook_link": "https:\/\/www.facebook.com\/Bella-and-Gaia-106643691245489",
+    "social_instagram_link": "https:\/\/www.instagram.com\/",
+    "social_pinterest_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "social_tumblr_link": "",
+    "social_medium_link": "",
+    "social_snapchat_link": "",
+    "share_enable_facebook": true,
+    "share_enable_pinterest": false,
+    "share_enable_twitter": true,
+    "favicon": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo-new_1606733387_1606993188.png",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Open Sans",
+    "checkout_body_font": "Lato",
+    "checkout_accent_color": "#676767",
+    "checkout_button_color": "#676767",
+    "checkout_error_color": "#ff2b64",
+    "color_account_bg": "#f3f3f3",
+    "color_account_text": "#656565",
+    "color_splash": "#f4a482",
+    "color_border": "#dddddd",
+    "homepage_background_light": "#f7f7f7",
+    "homepage_background_dark": "#2e3438",
+    "product_slideshow_arrows": "#cccccc",
+    "color_footer_social_link": "#a9a9a9",
+    "padding": 32,
+    "checkout_use_body_background_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "header_style": "logo_center",
+          "logo": "shopify:\/\/shop_images\/logo-new_1606733387_1606993188.png",
+          "logo_max_limit": 120,
+          "main_menu_linklist": "main-menu",
+          "enable_search": true,
+          "enable_account": true,
+          "use_icons": false,
+          "header_sticky": "static",
+          "transparent_home": false,
+          "transparent_collection": false,
+          "transparent_blog": false,
+          "transparent_article": false,
+          "transparent_page": false,
+          "transparent_text_color": "#ffffff"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "linklist": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "main-menu"
+            }
+          },
+          "bdbf5480-13b4-43d0-ad8a-5044db1a49ed": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "explore"
+            }
+          },
+          "582d3550-c222-4d7a-a2c4-3e503dc336f3": {
+            "type": "linklist",
+            "settings": {
+              "linklist": "support"
+            }
+          }
+        },
+        "block_order": [
+          "linklist",
+          "bdbf5480-13b4-43d0-ad8a-5044db1a49ed",
+          "582d3550-c222-4d7a-a2c4-3e503dc336f3"
+        ],
+        "settings": {
+          "footer_secondary_linklist": "",
+          "footer_payment_enable": false,
+          "footer_social_enable": false,
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "product": {
+        "type": "product",
+        "settings": {
+          "image_width": "wide",
+          "align": "product__align-center",
+          "variant_form": "button",
+          "form_position": "below",
+          "product_breadcrumbs": true,
+          "show_quantity": true,
+          "show_remaining": true,
+          "enable_payment_button": true,
+          "product_show_vendor": false,
+          "social_enable": false,
+          "product_reviews_enable": false,
+          "enable_video_looping": true,
+          "zoom_enable": true,
+          "info_page": "",
+          "tabs_position": "below"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "grid_setting_large": 4,
+          "grid_setting_small": 2,
+          "product_limit": 48,
+          "enable_layout_toggle": true,
+          "collection_sorting": true,
+          "text_align": "align--middle-center",
+          "show_title": true,
+          "show_title_below": false,
+          "show_description": true,
+          "show_description_below": false,
+          "show_image": true,
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 20,
+          "color": "palette--contrast--dark",
+          "hide_sidebar": false,
+          "collection_custom_nav_list": "",
+          "collection_standard_nav": false,
+          "collection_tag_nav": false
+        }
+      },
+      "blog": {
+        "type": "blog",
+        "settings": {}
+      },
+      "article": {
+        "type": "article",
+        "settings": {}
+      },
+      "index-product": {
+        "type": "index-product",
+        "settings": {}
+      },
+      "index-collection": {
+        "type": "index-collection",
+        "settings": {
+          "title": "Featured Products",
+          "collection": "",
+          "grid": 3,
+          "rows": 1,
+          "bg": "section",
+          "show_view_all": false
+        }
+      },
+      "index-video": {
+        "type": "index-video",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2020-12-19_at_5.27.10_PM.png",
+          "video_link": "https:\/\/youtu.be\/K44TjKNaopo",
+          "height": "use_screen_full",
+          "overlay_opacity": 0,
+          "autoplay": true,
+          "show_play": false,
+          "title": "",
+          "description": "",
+          "text_align": "align--middle-center",
+          "color": "palette--contrast--dark"
+        }
+      },
+      "index-collection-grid": {
+        "type": "index-collection-grid",
+        "blocks": {
+          "index-collection-grid-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "",
+              "title": "Featured collection",
+              "link_text": "View products"
+            }
+          },
+          "index-collection-grid-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "",
+              "title": "Featured collection",
+              "link_text": "View products"
+            }
+          }
+        },
+        "block_order": [
+          "index-collection-grid-1",
+          "index-collection-grid-2"
+        ],
+        "settings": {
+          "title": "Collection list",
+          "grid": 2,
+          "bg": "section",
+          "color": "palette--contrast--dark",
+          "button_style": "btn--outline",
+          "overlay_opacity": 15,
+          "aspect_ratio": 0.7
+        }
+      },
+      "index-double": {
+        "type": "index-double",
+        "blocks": {
+          "index-double-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/RpbuRdv8_1608242568.jpg",
+              "overlay_opacity": 15,
+              "title": "",
+              "description": "",
+              "text_align": "align--middle-center",
+              "color": "palette--contrast--dark",
+              "link_text": "",
+              "button_style": "btn"
+            }
+          },
+          "index-double-1": {
+            "type": "text",
+            "settings": {
+              "title": "BEAUTY",
+              "richtext": "<p>We journeyed the earth to find the very best natural beauty and skincare brands that match our core values. Our criteria remain unwavering; we pick only the most sustainable, natural, cruelty-free, and skin-loving products.<\/p>",
+              "text_align": "align--middle-center",
+              "bg": "section bg--accent",
+              "link_text": "Shop",
+              "link": "shopify:\/\/collections\/beauty",
+              "button_style": "btn--outline"
+            }
+          }
+        },
+        "block_order": [
+          "index-double-0",
+          "index-double-1"
+        ],
+        "settings": {
+          "height": "use_pixels_500"
+        }
+      },
+      "index-columns": {
+        "type": "index-columns",
+        "blocks": {
+          "index-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "index-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          },
+          "index-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": "",
+              "enable_video": false,
+              "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+            }
+          }
+        },
+        "block_order": [
+          "index-columns-0",
+          "index-columns-1",
+          "index-columns-2"
+        ],
+        "settings": {
+          "title": "Text columns with images",
+          "bg": "section",
+          "align_text": "text-center",
+          "scale_image": true,
+          "aspect_ratio": 1
+        }
+      },
+      "index-slideshow": {
+        "type": "index-slideshow",
+        "blocks": {
+          "index-slideshow-0": {
+            "type": "image",
+            "settings": {
+              "overlay_opacity": 15,
+              "title": "Image slide",
+              "description": "Tell your brand's story through images.",
+              "text_align": "align--middle-center",
+              "link_text": "View products",
+              "button_style": "btn"
+            }
+          },
+          "index-slideshow-1": {
+            "type": "image",
+            "settings": {
+              "overlay_opacity": 15,
+              "title": "Image slide",
+              "description": "Tell your brand's story through images.",
+              "text_align": "align--middle-center",
+              "link_text": "View products",
+              "button_style": "btn"
+            }
+          }
+        },
+        "block_order": [
+          "index-slideshow-0",
+          "index-slideshow-1"
+        ],
+        "settings": {
+          "autoplay": false,
+          "autoplay_speed": 8,
+          "height": "use_screen_two_thirds",
+          "color": "palette--contrast--dark"
+        }
+      },
+      "index-blog": {
+        "type": "index-blog",
+        "settings": {
+          "title": "News",
+          "homepage_blog": "news",
+          "homepage_blog_count": 2,
+          "bg": "section",
+          "color": "palette--contrast--dark",
+          "aspect_ratio": 0.7
+        }
+      },
+      "index-logos": {
+        "type": "index-logos",
+        "blocks": {
+          "index-logos-0": {
+            "type": "logo_image",
+            "settings": {}
+          },
+          "index-logos-1": {
+            "type": "logo_image",
+            "settings": {}
+          },
+          "index-logos-2": {
+            "type": "logo_image",
+            "settings": {}
+          },
+          "index-logos-3": {
+            "type": "logo_image",
+            "settings": {}
+          },
+          "index-logos-4": {
+            "type": "logo_image",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "index-logos-0",
+          "index-logos-1",
+          "index-logos-2",
+          "index-logos-3",
+          "index-logos-4"
+        ],
+        "settings": {
+          "title": "",
+          "bg": "section"
+        }
+      },
+      "index-map": {
+        "type": "index-map",
+        "settings": {
+          "height": "use_screen_one_half",
+          "heading": "Our store",
+          "address": "<p>123 Fake St.<br\/>Whistler, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Weekends, 11am - 4pm<\/p>",
+          "button": "Directions",
+          "button_style": "btn",
+          "style": "light",
+          "zoom": 11,
+          "bg": "section",
+          "api_key": "",
+          "map_address": "4300 Main St, Whistler"
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable": false,
+          "message": "Announcement text",
+          "more": "More info",
+          "enable_account": true,
+          "enable_search": true
+        }
+      },
+      "related": {
+        "type": "related",
+        "settings": {
+          "related_products_enable": true,
+          "limit": 4,
+          "product_recommendations_heading": "Related products"
+        }
+      },
+      "cart": {
+        "type": "cart",
+        "settings": {
+          "enable_ajax": true,
+          "cart_vendor_enable": false,
+          "cart_notes_enable": false,
+          "cart_show_quantity": true,
+          "cart_show_additional_buttons": false
+        }
+      },
+      "page-images": {
+        "type": "page-images",
+        "settings": {
+          "image_height": "use_screen_one_third",
+          "overlay_opacity": 30,
+          "palette": "palette--contrast--dark",
+          "text_align": "align--middle-center"
+        }
+      },
+      "16084416567c04cd22": {
+        "type": "index-richtext",
+        "settings": {
+          "title": "NATURAL LUXURY BEYOND LIMITS",
+          "home_page_richtext": "<p>Bella+Gaia is the stunning result of a deep love for natural products fused with a passion for true luxury. We take pride in searching the world for the best natural luxury products and experiences to share with our esteemed clientele. We live, work, and love by three core strands: body, mind, and spirit. Bella+Gaia was created to provide like-minded souls with an unprecedented personal shopping experience. The core of our inspiration? The beautiful earth we call home. Bella+Gaia is our passion and your sanctuary.<\/p>",
+          "text_align": "align--middle-center",
+          "bg": "section"
+        }
+      },
+      "160844798441df0a89": {
+        "type": "index-double",
+        "blocks": {
+          "160844798441df0a89-1": {
+            "type": "text",
+            "settings": {
+              "title": "HEALTH+WELLNESS",
+              "richtext": "<p>Join us in our holistic approach to health, wellness, and balanced living, starting with tactile treasures that invigorate every sense. Enrich your mental and physical being with our curated selection of candles, essential oils, supplements, and more.<\/p>",
+              "text_align": "align--middle-center",
+              "bg": "section bg--accent",
+              "link_text": "SHOP",
+              "link": "shopify:\/\/collections\/health-wellness",
+              "button_style": "btn--outline"
+            }
+          },
+          "160844798441df0a89-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screen_Shot_2020-12-17_at_10.36.31_AM_1608242697.png",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "align--middle-center",
+              "color": "palette--contrast--dark",
+              "link_text": "",
+              "button_style": "btn"
+            }
+          }
+        },
+        "block_order": [
+          "160844798441df0a89-1",
+          "160844798441df0a89-0"
+        ],
+        "settings": {
+          "height": "use_screen_one_half"
+        }
+      },
+      "16084481441f660229": {
+        "type": "index-double",
+        "blocks": {
+          "16084481441f660229-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/organic-cotton_1608251077.jpg",
+              "overlay_opacity": 0,
+              "title": "",
+              "description": "",
+              "text_align": "align--middle-center",
+              "color": "palette--contrast--dark",
+              "link_text": "",
+              "button_style": "btn"
+            }
+          },
+          "16084481441f660229-1": {
+            "type": "text",
+            "settings": {
+              "title": "LIFESTYLE",
+              "richtext": "<p>Bella+Gaia is more than just a cosmetics brand. Bella+Gaia is a way of life. Our mission is not just to pamper the body with naturalness and luxury,a but the mind as well. Live your fantasy life every day with our array of lifestyle products, from hand-knitted plaids to organic cotton bed sets. <\/p>",
+              "text_align": "align--middle-center",
+              "bg": "section bg--accent",
+              "link_text": "SHOP",
+              "link": "shopify:\/\/collections\/lifestyle",
+              "button_style": "btn--outline"
+            }
+          }
+        },
+        "block_order": [
+          "16084481441f660229-0",
+          "16084481441f660229-1"
+        ],
+        "settings": {
+          "height": "use_screen_one_half"
+        }
+      },
+      "1608448573dd3fbf15": {
+        "type": "index-html",
+        "settings": {
+          "html": "<div style=\"height: 2rem\"><\/div>",
+          "full_width": true
+        }
+      },
+      "16084487852122e855": {
+        "type": "index-html",
+        "settings": {
+          "html": "<div style=\"height: 2rem\"><\/div>",
+          "full_width": true
+        }
+      },
+      "160844882803fa46d1": {
+        "type": "index-html",
+        "settings": {
+          "html": "<div style=\"height: 2rem\"><\/div>",
+          "full_width": true
+        }
+      }
+    },
+    "content_for_index": [
+      "index-video",
+      "16084416567c04cd22",
+      "index-double",
+      "16084487852122e855",
+      "160844798441df0a89",
+      "1608448573dd3fbf15",
+      "16084481441f660229",
+      "160844882803fa46d1"
+    ]
+  },
+  "presets": {
+    "Light": {
+      "color_announcement_bg": "#f7f7f7",
+      "color_announcement_text": "#656565",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#656565",
+      "color_nav_border": "#f7f7f7",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#656565",
+      "color_primary": "#f4a482",
+      "color_secondary": "#585e71",
+      "color_bg_light": "#f7f7f7",
+      "color_bg_inverse": "#2e3438",
+      "color_text_inverse": "#ffffff",
+      "color_primary_inverse": "#fcd8c8",
+      "color_secondary_inverse": "#c6dae5",
+      "color_bg_accent_inverse": "#222324",
+      "product_background_color": "#ffffff",
+      "color_footer_bg": "#ffffff",
+      "color_footer_text": "#656565",
+      "color_account_bg": "#f3f3f3",
+      "color_account_text": "#656565",
+      "color_splash": "#f4a482",
+      "color_border": "#dddddd",
+      "homepage_background_light": "#f7f7f7",
+      "homepage_background_dark": "#2e3438",
+      "product_slideshow_arrows": "#cccccc",
+      "color_footer_social_link": "#a9a9a9",
+      "type_header_font": "ovo_n4",
+      "type_heading_size": 100,
+      "font_title_capitalize": false,
+      "type_accent_font": "itc_johnston_n5",
+      "type_accent_size": 100,
+      "type_base_font": "harmonia_sans_n4",
+      "type_body_size": 100,
+      "animations_enable": true,
+      "parallax_enable": true,
+      "padding": 32,
+      "button_radius": 0,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "image_hover_enable": true,
+      "image_autoheight_enable": true,
+      "product_grid_aspect_ratio": 1,
+      "swatches_enable": true,
+      "tag_sellout": false,
+      "tag_sale": true,
+      "tag_new": false,
+      "tag_new_limit": 14,
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#E37648",
+      "checkout_button_color": "#f4a482",
+      "checkout_error_color": "#585e71"
+    },
+    "Bright": {
+      "color_announcement_bg": "#333333",
+      "color_announcement_text": "#ffffff",
+      "color_header_bg": "#ffffff",
+      "color_header_text": "#333333",
+      "color_nav_border": "#ededed",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_primary": "#1391a4",
+      "color_secondary": "#285056",
+      "color_bg_inverse": "#333333",
+      "color_primary_inverse": "#70ccda",
+      "color_secondary_inverse": "#497178",
+      "color_bg_accent_inverse": "#000810",
+      "product_background_color": "#fcfcfc",
+      "color_footer_bg": "#f7f7f7",
+      "color_footer_text": "#333333",
+      "type_header_font": "bembo_book_n7",
+      "type_heading_size": 100,
+      "font_title_capitalize": false,
+      "type_accent_font": "avenir_next_n5",
+      "type_accent_size": 100,
+      "type_base_font": "avenir_next_n4",
+      "type_body_size": 100,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "hover",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#1391a4",
+      "checkout_button_color": "#1391a4",
+      "checkout_error_color": "#DE7878"
+    },
+    "Dark": {
+      "color_announcement_bg": "#212121",
+      "color_announcement_text": "#d4d4d4",
+      "color_header_bg": "#353535",
+      "color_header_text": "#ffffff",
+      "color_nav_border": "#000000",
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#3c3c3c",
+      "color_primary": "#C73535",
+      "color_secondary": "#000000",
+      "color_bg_light": "#f7f7f7",
+      "color_bg_inverse": "#2e3438",
+      "color_text_inverse": "#e6e6e6",
+      "color_primary_inverse": "#e3baba",
+      "color_secondary_inverse": "#ffffff",
+      "color_bg_accent_inverse": "#222324",
+      "product_background_color": "#ffffff",
+      "color_footer_bg": "#383838",
+      "color_footer_text": "#e3e3e3",
+      "type_header_font": "basic_commercial_n7",
+      "type_heading_size": 100,
+      "font_title_capitalize": false,
+      "type_accent_font": "karla_n4",
+      "type_accent_size": 115,
+      "type_base_font": "basic_commercial_n4",
+      "type_body_size": 125,
+      "collection_text_alignment": "text-center",
+      "product_grid_style": "under",
+      "checkout_use_body_background_image": false,
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Open Sans",
+      "checkout_body_font": "Open Sans",
+      "checkout_accent_color": "#8b1e1e",
+      "checkout_button_color": "#e73131",
+      "checkout_error_color": "#ff862b"
+    }
+  }
+}
